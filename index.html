@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Супермаркет</h1>
+    <button id="open-cart">Корзина</button>
+    <button id="clear-cart">Очистити корзину</button>
+    <div>
+        <ul id="item-list">
+            <li><a class="add-to-cart" href="#" data-name="Apple" data-price="1.22">Apple $1.22</a><br><img src="img/apple.png" alt="Apple"></li>
+            <li><a class="add-to-cart" href="#" data-name="Banana" data-price="1.33">Banana $1.33</a><br><img src="img/banana.png" alt="Banana"></li>
+            <li><a class="add-to-cart" href="#" data-name="Cherry" data-price="5.02">Cherry $5.02</a><br><img src="img/cherry.png" alt="Cherry"></li>
+            <li><a class="add-to-cart" href="#" data-name="Pinapple" data-price="2.78">Pinapple $2.78</a><br><img src="img/pineapple.png" alt="Pinapple"></li>
+            <li><a class="add-to-cart" href="#" data-name="Coffee" data-price="10.24">Coffee $10.24</a><br><img src="img/coffee.png" alt="Coffee"></li>
+            <li><a class="add-to-cart" href="#" data-name="Tea" data-price="2.78">Tea $2.78</a><br><img src="img/tea.png" alt="Tea"></li>
+            <li><a class="add-to-cart" href="#" data-name="Chocolate" data-price="2.51">Chocolate $2.51</a><br><img src="img/chocolate.png" alt="Chocolate"></li>
+            <li><a class="add-to-cart" href="#" data-name="Sweets" data-price="3.80">Sweets $3.80</a><br><img src="img/sweets.png" alt="Sweets"></li>
+            <li><a class="add-to-cart" href="#" data-name="Waffles" data-price="1.32">Waffles $1.32</a><br><img src="img/waffles.png" alt="Waffles"></li>
+            <li><a class="add-to-cart" href="#" data-name="Jam" data-price="8.48">Jam $8.48</a><br><img src="img/jam.png" alt="Jam"></li>
+            <li><a class="add-to-cart" href="#" data-name="Chips" data-price="2.05">Chips $2.05</a><br><img src="img/chips.png" alt="Chips"></li>
+            <li><a class="add-to-cart" href="#" data-name="Bread" data-price="2.25">Bread $2.25</a><br><img src="img/bread.png" alt="Bread"></li>
+            <li><a class="add-to-cart" href="#" data-name="Juice" data-price="3.60">Juice $3.60</a><br><img src="img/juice.png" alt="Juice"></li>
+            <li><a class="add-to-cart" href="#" data-name="Ketchup" data-price="3.23">Ketchup $3.23</a><br><img src="img/ketchup.png" alt="Ketchup"></li>
+            <li><a class="add-to-cart" href="#" data-name="Tomato" data-price="2.89">Tomato $2.89</a><br><img src="img/tomato.png" alt="Tomato"></li>
+            <li><a class="add-to-cart" href="#" data-name="Potato" data-price="1.70">Potato $1.70</a><br><img src="img/potato.png" alt="Potato"></li>
+        </ul>
+        
+    </div>
+
+    
+    <section id="modalWindow" class="hidden">
+        <button class="btnClose">X</button>
+        <h1>Корзина</h1>
+
+    <div>
+        <ul id="show-cart">
+
+        </ul>
+        <div>Загальна ціна:<span id="total-cart"></span></div>
+        <div>Загальна кількість:<span id="total-count"></span></div>
+    </div>
+
+    </section>
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="common.js"></script>
+</body>
+</html>
