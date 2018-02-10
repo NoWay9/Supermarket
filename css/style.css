@@ -71,7 +71,7 @@ h1{
 #item-list{
 	list-style: none;
 }
- 
+
 
 #item-list li{
    display: inline-block;
@@ -83,6 +83,7 @@ h1{
    padding-top: 10px;
    background-color: wheat;
 }
+
 
 #item-list li a{
 	text-decoration: none;
@@ -97,9 +98,10 @@ h1{
 	font-weight: 900;
 }
 
+
 #item-list li img{
 	width: 170px;
 	height: 130px;
 	margin-top: 40px;
-	
+
 }
